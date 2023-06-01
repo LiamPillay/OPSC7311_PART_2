@@ -12,9 +12,14 @@
         android:theme="@style/Theme.SplashScreen"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
+            android:name=".activity_main2"
             android:exported="false" />
-        <!-- on below line we are adding a style for MainActivity -->
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" /> <!-- on below line we are adding a style for MainActivity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"

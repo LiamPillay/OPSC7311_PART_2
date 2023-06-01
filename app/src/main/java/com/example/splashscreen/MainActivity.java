@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 // on below line we are
                 // creating a new intent
-                Intent i = new Intent(MainActivity.this, SplashActivity.class);
+                Intent i = new Intent(MainActivity.this, activity_main2.class);
 
                 // on below line we are
                 // starting a new activity.
@@ -37,5 +37,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }, 2000);
 
+
+
     }
+
 }
